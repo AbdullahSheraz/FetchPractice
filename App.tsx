@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <View style={styles.mainContainer}>
-      <Text style={styles.mainHeading}>Enter Site URL</Text>
+      <Text className="text-black text-center font-medium text-3xl">Enter Site URL</Text>
       <TextInput
         style={[styles.input, {color: 'black'}]}
         onChangeText={onChangeText}
