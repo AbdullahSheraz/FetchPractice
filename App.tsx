@@ -4,7 +4,7 @@ import { myGetFetchReq, myPostFetchReq } from './src/FetchReqs'
 
 const App = () => {
   
-  const [siteName, setsiteName] = useState('')
+  const [siteName123, setsiteName123] = useState('')
   const [text, onChangeText]    = useState('')
 
   useEffect(() => {
